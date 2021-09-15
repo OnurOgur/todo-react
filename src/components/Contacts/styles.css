@@ -1,0 +1,70 @@
+.Contacts {
+    background-color: white;
+    width: 500px;
+    min-height: 50vh;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.List>input {
+    width: 360px;
+    border: none;
+    padding: 15px 30px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+
+::placeholder {
+    opacity: .3;
+}
+
+.List hr {
+    padding: 0;
+    margin: 0;
+    opacity: .3;
+}
+
+.List .btn {
+    position: absolute;
+    margin-top: 15px;
+    margin-right: 0;
+    background-color: cyan;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.List ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Form {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Form ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #b4b4b4;
+    margin-bottom: 3px;
+}
+
+.Form ul li {
+    padding: 5px;
+    padding-top: 0;
+}
+
+.List ul li .all {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-left: 40px;
+}
